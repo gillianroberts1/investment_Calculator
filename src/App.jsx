@@ -1,9 +1,13 @@
-import Header from "./components/Header"
+import Header from "./Components/Header.jsx";
+import UserInput from "./Components/UserInput.jsx";
 
 function App() {
   return (
-  <Header/>
-  )
+    <>
+      <Header />
+      <UserInput />
+    </>
+  );
 }
 
-export default App
+export default App;
